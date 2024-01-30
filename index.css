@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+body{
+    background-color: #B0E0E6;
+    font-family: 'Mulish', sans-serif;}
+
+ul{
+    display: flex; 
+    justify-content: space-around; /*espaçamento ao redor dos itens*/
+    list-style-type: none; /*tirar as ° da lista*/
+    align-items: center; /*verticalmente alonhado ao centro*/
+    padding: 16px; /*espaçamento ao redor da lista*/
+    color: #4169E1; /*cor do texto*/
+    font-size:30px /*tamanho da fonte*/
+}
+
+a{ /*edita oq esta referenciado na tag a do html*/
+    color: white;  /*cor do texto*/
+    text-decoration: none; /*tirar as linha do link*/
+}
+
+header img{ /*estilizar a imagem do header*/
+    width: 150px; /*largura*/
+    height: 150px; /*altura*/
+    border-radius: 50%; /*arredondamento das bordas*/
+    border: 7px solid  #008080; /*expessura e cor da borda*/
+}
+
+.imagem{ /*ponto para referenciar a classe do html*/
+    text-align: center; /*alinhar elementos da div ao centro*/
+}
+
+h1{
+    color: #008080; /*cor do texto da tag h1*/
+}
+
+footer p{
+    color: #008080; /*cor do texto da tag p*/
+}
+
+footer img{
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+}
+
+footer{
+    display: flex; /*deixar um icon do lado do outro*/
+    justify-content: center; /*alinhar ao centro da pagina*/
+}
+
+footer a{
+    margin: 30px; /*espaçamento enrtre icons*/
+    text-align: center; /*alinhamento ao centro da pag*/
+}
+
+footer p{
+    margin-top: 30 px/*espaçamento entre icons e titulo dos icons*/
+}
+
+.container{
+    padding: 0px 25px; /*espaçamento de 0px de cima e de baixo || 50px de direita e esquerda*/
+}
+
+nav a:hover{
+    color:  #008080; /*passar mouse por cima do sobre nós, pjt e ctt, o texto ficará da cor  #008080*/
+}
