@@ -45,7 +45,7 @@ footer img{
 
 footer{
     display: flex; /*deixar um icon do lado do outro*/
-    /*justify-content: center; /*alinhar ao centro da pagina*/
+    justify-content: center; /*alinhar ao centro da pagina*/
 }
 
 footer a{
@@ -89,18 +89,9 @@ nav a:hover{
     transition: background-color 0.3s;
 }
 
-.logo_ctt{
-    width: 100px; /*largura*/
-    height: 100px; /*altura*/
-    display: flex;
-    flex-direction: column; /*itens um embaixo do outro*/
-    padding-left: 200px;
-    margin-top: 140px;
-    justify-content: space-evenly;
+.curriculo{
+    color:red;
+    padding-bottom: 100px;
+    font-size:50px /*tamanho da fonte*/
 }
 
-.info_ctt{
-    display: flex;
-    color:#008080;
-    margin-left: 500px;
-}
