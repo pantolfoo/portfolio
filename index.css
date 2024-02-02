@@ -79,7 +79,7 @@ nav a:hover{
     display: flex; /*deixar um icon do lado do outro*/
 }
 
-.botao{
+.botao{ /*.: mu8da classe*/
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
@@ -89,9 +89,11 @@ nav a:hover{
     transition: background-color 0.3s;
 }
 
-.curriculo{
-    color:red;
+#curriculo { /*#: muda id*/
+    color: black;
     padding-bottom: 100px;
-    font-size:50px /*tamanho da fonte*/
+    font-size:1.2rem; /*tamanho da fonte*/
+    text-decoration: underline;
+    font-weight: normal;
 }
 
