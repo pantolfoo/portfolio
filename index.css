@@ -62,18 +62,19 @@ footer p{
 }
 
 nav a:hover{
-    color:  #008080; /*passar mouse por cima do sobre nós, pjt e ctt, o texto ficará da cor  #008080*/
+    color:  #008080; /*passar mouse por cima do sobre nós, pjt o texto ficará da cor  #008080*/
 }
 
 .page_title{
     text-align: center; /*alinhar ao centro*/
-    padding: 16px; /*espaçamento ao redor da lista*/
-    color: white; /*cor do texto*/
-    font-size:50px /*tamanho da fonte*/
+    padding: 10px; /*espaçamento ao redor da lista*/
+    color: #008080; /*cor do texto*/
+    font-size:50px; /*tamanho da fonte*/
+    font-style: bold;
 }
 
 .titulo{
-    color: #008080; /*cor do texto da tag h1*/
+    color: white; /*cor do texto da tag h1*/
     text-align: left;
     padding-left: 30px;
     display: flex; /*deixar um icon do lado do outro*/
@@ -95,5 +96,12 @@ nav a:hover{
     font-size:1.2rem; /*tamanho da fonte*/
     text-decoration: underline;
     font-weight: normal;
+}
+
+.descricao{
+    color: #008080;
+    font-style: bold;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
