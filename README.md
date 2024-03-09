@@ -1,8 +1,5 @@
 ## Sobre:
-#### Repositório que está comportando meu portfólio
-
-## Link do portfólio:
-#### <a>https://pantolfoo.github.io/portfolio/</a>
+### Repositório que está comportando meu portfólio 
 
 ## Linguagens usadas:
 ![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
